@@ -25,3 +25,7 @@ numero = "255"
 """print(len(numero)) #Para los numeros no se puede usar len, los numeros no tiene largo.
 #pero se puede poner comillas en el numero#"""
 
+mi_palabra = "jocote"
+mi_palabra_mayuscula = mi_palabra.upper()
+
+print(mi_palabra_mayuscula)
