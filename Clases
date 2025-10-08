@@ -1,2 +1,4 @@
 Clases IDS
 len no aplica para los numeros 
+lista es mutable 
+tupla no es mutable
