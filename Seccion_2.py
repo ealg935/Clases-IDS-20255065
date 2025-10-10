@@ -19,5 +19,13 @@ print(Año_actual-Año_nacimiento)"""
 Unidades = int(input("Cuantas unidades quieres comprar?"))
 print(f"Por todo eso tienes que pagar ${Precio*Unidades}")"""
 
-Num_Ent = int(input("Dame un numero entero: "))
-print(Num_Ent*Num_Ent)
+"""Num_Ent = int(input("Dame un numero entero: "))
+print(Num_Ent*Num_Ent)"""
+
+"""Num1 = int(input("Dame un numero:"))
+Num2 = int(input("Dame otro numero:"))
+print([Num1+Num2/2])"""
+
+nombrec = input("¿Cual es tu nombre completo? ")
+edad= int(input("¿Cuantos años tienes? "))
+print(f"Hola,{nombrec}. Tienes {edad} años")
