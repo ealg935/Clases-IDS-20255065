@@ -34,11 +34,11 @@ ninio = int(input("Ingrese el orden del niño que desea saber (1-7): "))
 print(f"El alumno que ingreso como numero {ninio} es {alumnos[ninio-1]}")"""
 
 #ejercicio5#
-"""Nombre = input("Cual es tu nombre: ")
+Nombre = input("Cual es tu nombre: ")
 Apellido = input("Cual es tu apellido: ")
 Respuesta= int(input("¿Quieres propuesta 1 o propuesta 2? "))
 if Respuesta == 1 : print(f"{Nombre.lower()}.{Apellido.lower()}""@ISND.com")
-elif Respuesta == 2 : print(f"{(Nombre[0].lower())}{Apellido.lower()}""@ISND.com")"""
+elif Respuesta == 2 : print(f"{(Nombre[0].lower())}{Apellido.lower()}""@ISND.com")
 
 
 #EJERCICIO 6#
