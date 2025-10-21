@@ -95,17 +95,8 @@ num2 = int(input())
 
 print(f'El pedido de Alvin es: {platos_principales[num1-1]} con {complementos[num2-1]}')'''
 
-try:
-    n = int(input().strip())
-except Exception:
-    # If input is missing or not an integer, treat as 0
-    n = 0
 
-# For positive N, use arithmetic series formula; otherwise print 0
-if n > 0:
-    result = n * (n + 1) // 2
-else:
-    result = 0
+num =int(input())
 
-print(result)
-
+suma = num*(num+1)/2
+print(suma)

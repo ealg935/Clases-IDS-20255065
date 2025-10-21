@@ -40,7 +40,6 @@ Respuesta= int(input("¿Quieres propuesta 1 o propuesta 2? "))
 if Respuesta == 1 : print(f"{Nombre.lower()}.{Apellido.lower()}""@ISND.com")
 elif Respuesta == 2 : print(f"{(Nombre[0].lower())}{Apellido.lower()}""@ISND.com")
 
-
 #EJERCICIO 6#
 """Salario =input("Cual es tu salario? ")
 print(Salario[0]== "$")
