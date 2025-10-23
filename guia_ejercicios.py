@@ -13,10 +13,10 @@ if (numero + 1) % 2 == 0:
 else: 
     par_post = numero + 2
 
-if numero % 3 == 0:
+if len(str(numero)[-1]) == float:
     impar_ant = numero - 1
 else:
-    impar_ant = numero -1
+    impar_ant = numero - 2
 
-print(par_post)
-print(impar_ant)
+print(par_post, impar_ant)
+

@@ -20,7 +20,7 @@ print(nombres)
 nombres.insert(int(input('Posicion:')), input('Nombre Nuevo:')) #insertar un elemento en una posicion especifica #
 print(nombres)'''
 
-nombres[int(input('Posicion:'))] = input('Nombre Nuevo:') #insertar un elemento en una posicion especifica #
+'''nombres[int(input('Posicion:'))] = input('Nombre Nuevo:') #insertar un elemento en una posicion especifica #
 print(nombres)
 
 nombres.remove('Ana')   #eliminar la primera ocurrencia de un elemento en la lista #
@@ -31,9 +31,9 @@ print(f'Nombre borrado: {nombre_borrado}') #almacenar el elemento eliminado en u
 nombres.reverse()
 print(nombres)
 
-#herramientas de control de flujo#
+#herramientas de control de flujo#'''
 
-numero = 6
+'''numero = 6
 captura = int(input('Adivina el numero (un intento): '))
 if captura == numero:
     print('Le acertaste!')
@@ -49,4 +49,29 @@ elif nota >= 4:
     
 else:
     print('Malo!')
+'''
+#23/10/25#
+
+monto = int(input('Monto a pagar: '))
+tipo = input('Tipo (local/internacional): ')
+impuesto = 0
+
+if tipo.lower() == 'local':
+    if monto >= 100:
+        impuesto = 0.07
+    elif monto >= 75:
+        impuesto = 0.05
+    else:
+        impuesto = 0
+print(f'El porcentaje es del {impuesto*100}%')
+
+elif tipo.lower() == 'internacional':
+    if monto >= 100:
+        impuesto = 0.12
+    elif monto >= 75:
+        impuesto = 0.09
+    else:
+        impuesto = 0
+print(f'El porcentaje es del {impuesto*100}%')
+
 
