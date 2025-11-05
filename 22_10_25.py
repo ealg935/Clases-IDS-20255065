@@ -81,5 +81,5 @@ print(f'paga un impuesto de {monto*impuesto:.2f}%')'''
 nombre = ['Ana', 'Jose', 'Luis']
 
 for x in nombre:
-    print(f'Hola {x}')
+    print(x)
 

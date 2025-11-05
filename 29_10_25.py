@@ -40,4 +40,6 @@ while menu_activo:
     elif opcion == '4':
         borrado = lista_alumnos.pop(int(input('Ingrese el numero del alumno a popear (1-4):'))-1)
         print(f'Usted ha popeado a {borrado}.')
+    else: 
+        print('Opcion no valida.')
 print('Gracias por utilizar nuestro sistema.')
